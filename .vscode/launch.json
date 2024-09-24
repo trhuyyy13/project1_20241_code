@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/macbook/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/TÀI LIỆU HỌC TẬP/IT3150 Project 1/HUSTACK",
+      "program": "/Users/macbook/Library/CloudStorage/OneDrive-HanoiUniversityofScienceandTechnology/TÀI LIỆU HỌC TẬP/IT3150 Project 1/HUSTACK/build/Debug/outDebug"
+    }
+  ]
+}
