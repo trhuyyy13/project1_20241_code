@@ -20,7 +20,7 @@ int main(){
     int phut = stoi(s.substr(3,2));
     int giay = stoi(s.substr(6,2));
 
-    if (gio>24 || phut >60 || giay >60 ){
+    if (gio>24 || phut >59 || giay >59 ){
         cout<<"INCORRECT";
         return 0;
     }
