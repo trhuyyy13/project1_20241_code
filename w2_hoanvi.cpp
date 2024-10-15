@@ -8,7 +8,7 @@ void solution() {
     for (int i = 0; i < n; i++) {
         cout << a[i] << " ";
     }
-    cout << endl;
+    cout <<endl;
 }
 
 void Try(int k) {
@@ -16,14 +16,14 @@ void Try(int k) {
         bool ok = true;
         for (int i = 0; i < k; i++) {
             if (a[i] == v) {
-                ok = false;
+                ok=false;
                 break;
             }
         }
         if (ok) {
             a[k] = v;
-            if (k == n - 1) solution();
-            else Try(k + 1);
+            if (k==n-1) solution();
+            else Try(k+1);
         }
     }
 }
